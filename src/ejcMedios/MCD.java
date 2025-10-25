@@ -14,7 +14,7 @@ public static int gcd(int a, int b) {
 		}
 	// paso recursivo
 		
-	return gcd(a, a%b); // buscamos el minimo comun divisor
+	return gcd(b, a%b); // buscamos el minimo comun divisor
 	}
 	
 
@@ -22,6 +22,8 @@ public static int gcd(int a, int b) {
 		
 		
 		System.out.println(gcd(48,18));
+		
+		System.out.println(gcd(105,30));
 		// TODO Auto-generated method stub
 
 	}
