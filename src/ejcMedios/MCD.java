@@ -2,7 +2,7 @@ package ejcMedios;
 
 public class MCD {
 	
-public static int mcd(int a, int b) {
+public static int gcd(int a, int b) {
 		
 		//caso base
 		
@@ -14,14 +14,14 @@ public static int mcd(int a, int b) {
 		}
 	// paso recursivo
 		
-	return mcd(a, a%b); // buscamos el minimo comun divisor
+	return gcd(a, a%b); // buscamos el minimo comun divisor
 	}
 	
 
 	public static void main(String[] args) {
 		
 		
-		System.out.println(mcd(48,18));
+		System.out.println(gcd(48,18));
 		// TODO Auto-generated method stub
 
 	}
